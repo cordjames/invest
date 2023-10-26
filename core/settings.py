@@ -33,7 +33,8 @@ SECRET_KEY = "django-insecure-ce9#%152@5e5i_7o=4_!$*0w^xwq=#$ay^6*$(sh#($xpp=jl*
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "node36a.containers.back4app.com"
+    "node36a.containers.back4app.com",
+    "invest-8el3v0ol.b4a.run"
 ]
 
 
