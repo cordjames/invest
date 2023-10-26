@@ -32,7 +32,9 @@ SECRET_KEY = "django-insecure-ce9#%152@5e5i_7o=4_!$*0w^xwq=#$ay^6*$(sh#($xpp=jl*
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "node36a.containers.back4app.com"
+]
 
 
 # Application definition
