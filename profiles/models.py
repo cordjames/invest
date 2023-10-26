@@ -64,7 +64,9 @@ class Profile(models.Model):
         default="white",
         max_length=200
     )
-     
+    account_status = models.BooleanField(
+        default=False
+    )
 
 
     def __str__(self):
